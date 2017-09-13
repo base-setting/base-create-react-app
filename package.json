@@ -51,8 +51,10 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "nohup": "nohup node server &",
+    "find": "ps -ef | grep node",
     "jobs": "jobs",
-    "kill": "fg % 1"
+    "rehup": "fg % 1",
+    "kill": "kill -15 xx"
   },
   "jest": {
     "collectCoverageFrom": [
