@@ -85,12 +85,7 @@ class Test extends Component {
 
     return (
       <div>
-        <h1>React Draggable</h1>
-        <p>Active DragHandlers: {this.state.activeDrags}</p>
-
-        <p>
-          <a href="https://github.com/mzabriskie/react-draggable/blob/master/example/index.html">Demo Source</a>
-        </p>
+        <h1>Draggable</h1>
 
         <Draggable {...dragHandlers}>
           <div className="box">I can be dragged anywhere</div>
